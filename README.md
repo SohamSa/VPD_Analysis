@@ -54,7 +54,7 @@ Independent Variables: Temperature and Humidity.
 Dependent Variable: VPD.
 Formula: VPD = m1 * Temperature + m2 * Humidity + c
 
-##Model Verification 
+## Model Verification 
 
 Example:
 
