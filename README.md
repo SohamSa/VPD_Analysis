@@ -1,10 +1,10 @@
 # Vapor Pressure Deficit Analysis
-##VPD Analysis: Vapor Pressure Deficit and Environmental Health in Six U.S. Cities
+## VPD Analysis: Vapor Pressure Deficit and Environmental Health in Six U.S. Cities
 
-##Overview
+## Overview
 This project analyzes and forecasts Vapor Pressure Deficit (VPD) trends in six U.S. cities, exploring the link between environmental conditions and health. The study was initiated after observing the impact of humidity on fungal outbreaks and investigating VPD's potential role in student athlete suicides. Our analysis aims to understand VPD fluctuations and their implications on environmental health.
 
-##Introduction 
+## Introduction 
 
 VPD, a measure of air moisture deficit, is critical in understanding environmental health impacts. We started studying VPD in 2018, driven by a Candida auris outbreak in a New Jersey nursing home, and explored its role in influencing health outcomes.
 
