@@ -8,7 +8,7 @@ This project analyzes and forecasts Vapor Pressure Deficit (VPD) trends in six U
 
 VPD, a measure of air moisture deficit, is critical in understanding environmental health impacts. We started studying VPD in 2018, driven by a Candida auris outbreak in a New Jersey nursing home, and explored its role in influencing health outcomes.
 
-Key Findings:
+## Key Findings:
 
 VPD varies significantly between months, e.g., in 2019, the VPD in October was lower than in September (Average 1.441 vs. 1.1212, t=5.09, p < .001).
 VPD may encourage the growth of fungi and mold, potentially influencing human health.
@@ -22,16 +22,16 @@ Kelly Catlin (Stanford University, March 7, 2019)
 Lauren Bernett (James Madison University, April 26, 2022)
 These cases motivated us to investigate VPD patterns in the cities where these events occurred.
 
-##What is VPD?
+## What is VPD?
 Vapor Pressure Deficit (VPD) is the difference between the amount of moisture in the air and its saturation point. It helps determine if the environment is too dry or too moist.
 
-##Key Highlights:
+## Key Highlights:
 
 Factors: Temperature (directly proportional) and Relative Humidity (inversely proportional).
 Formula: (6.1078 * exp((Temp / (234.175 + Temp) * 17.08085)) * (1 - Humidity/100)) / 10
 Ideal Range: 0.8 - 1.2 kPa; values below 0.8 indicate high moisture, while values above 1.2 indicate dryness.
 
-##Cities Analyzed
+## Cities Analyzed
 Palo Alto, CA
 Johnson City, NY
 Marquette, MI
@@ -41,7 +41,7 @@ Philadelphia, PA
 Data and Methods
 Dataset: VPD Actual Dataset
 
-##Analysis Workflow:
+## Analysis Workflow:
 
 Data Extraction: Read data from Excel files, extracting relevant features for VPD calculations.
 VPD Calculation: VPD was added as an additional feature using the standard formula.
@@ -49,7 +49,7 @@ Data Description: Summary statistics, including mean, median, and standard devia
 Data Visualization: Line plots, box plots, and heatmaps to display trends and correlations.
 Data Analytics: Linear regression models were employed to predict VPD using temperature and humidity.
 
-##Linear Regression Model
+## Linear Regression Model
 Independent Variables: Temperature and Humidity.
 Dependent Variable: VPD.
 Formula: VPD = m1 * Temperature + m2 * Humidity + c
@@ -62,7 +62,7 @@ Given: Temperature = 75, Humidity = 60
 Coefficients: m1 = 0.0289, m2 = -0.0169
 Calculated VPD: 1.154
 
-##Results
+## Results
 A significant increase in VPD over time in Palo Alto and Philadelphia suggests rising temperatures and decreasing humidity, highlighting the impact of global warming in these cities.
 No significant VPD changes were observed in the other cities analyzed.
 Learnings and Reflections
@@ -70,7 +70,7 @@ This project highlighted the importance of VPD as a factor in environmental heal
 Key takeaways include the need for comprehensive research beyond weather forecasting to examine other factors influencing suicides among athletes.
 Despite time constraints, this project demonstrated the relationship between VPD and health outcomes, emphasizing the need for further study.
 
-##Conclusion
+## Conclusion
 While successful in showing VPD trends, the project remains incomplete in correlating other critical factors that influence athlete suicides. Future work would aim to include additional variables to build a more comprehensive model.
 
 
